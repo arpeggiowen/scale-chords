@@ -3,9 +3,9 @@ A simple tool to build chords from each interval of a specified musical scale.
 
 Version 1.0: 2020/10/02
 
-# How to use:
+## How to use:
 
-Method syntax: chord_gen(accidentals, key, parent scale, mode, triad)
+Method syntax: **chord_gen(accidentals, key, parent scale, mode, triad)**
 
 'accidentals': specifies whether to use sharps or flats.
   - Expected input: (String) 'sharps', 'flats'.
@@ -23,7 +23,7 @@ Method syntax: chord_gen(accidentals, key, parent scale, mode, triad)
   - Expected input: (boolean) True results in triad chords; False produces 7th chords
   
   
-Future versions:
+## Future versions:
 - Integrate with scale tool.
 - Expand to include more possible chords for each scale interval.
 - Inverse functionality: derive compatible scales from given chord.
